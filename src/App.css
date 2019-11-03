@@ -3,6 +3,12 @@ body {
   min-height: 100vh;
 }
 
+/* .h1 {
+  display: flex;
+  font-size: 50px;
+  color: rgb(167, 101, 101);
+} */
+
 .app {
   padding-top: 10rem;
 }

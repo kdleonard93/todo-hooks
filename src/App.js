@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
+import "react-bulma-components/dist/react-bulma-components.min.css";
+import { Hero } from "react-bulma-components";
 import "./App.css";
 import "./App.scss";
 
@@ -66,8 +68,10 @@ function App() {
   return (
     <div className="app">
       <div className="header">
+        <h1 className="h1">Hello</h1>
         <img src={logo} className="logo" alt="logo" />
       </div>
+
       <form className="todo-list">
         <ul>
           {todos.map((todo, i) => (
